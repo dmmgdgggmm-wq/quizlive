@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizSnap Overlay</string>
+    <string name="header_title">QuizSnap Overlay — Cài Đặt</string>
+    <string name="header_subtitle">Biểu tượng nổi chụp màn hình, gửi nguyên ảnh cho Gemini API đọc bài tập</string>
+</resources>

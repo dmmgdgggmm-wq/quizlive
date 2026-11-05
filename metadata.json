@@ -1,0 +1,6 @@
+{
+  "name": "QuizSnap Overlay",
+  "description": "Ứng dụng Android biểu tượng nổi chụp nguyên ảnh màn hình gửi Gemini API đọc bài tập với QuotaRouter tự động xoay vòng API key và model dự phòng, kèm bộ mã nguồn Gradle Kotlin + XML ViewBinding hoàn chỉnh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

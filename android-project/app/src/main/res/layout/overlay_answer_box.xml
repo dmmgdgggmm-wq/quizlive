@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/answerBoxRoot"
+    android:layout_width="48dp"
+    android:layout_height="32dp"
+    android:minWidth="24dp"
+    android:minHeight="24dp"
+    android:background="@drawable/bg_answer_overlay">
+
+    <ScrollView
+        android:id="@+id/answerScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/tvAnswerContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:shadowColor="#D9000000"
+            android:shadowDx="0"
+            android:shadowDy="1.5"
+            android:shadowRadius="8"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="" />
+    </ScrollView>
+
+    <!-- Không hiển thị dấu chấm màu xanh (dùng màu trong suốt, vẫn hỗ trợ chạm kéo thay đổi cỡ) -->
+    <View
+        android:id="@+id/resizeHandle"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/transparent" />
+
+</FrameLayout>

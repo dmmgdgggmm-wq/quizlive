@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_screen">#0F172A</color>
+    <color name="bg_card">#1E293B</color>
+    <color name="bg_active_row">#2610B981</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#CBD5E1</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="accent_primary">#10B981</color>
+    <color name="accent_bright">#34D399</color>
+    <color name="btn_secondary">#334155</color>
+    <color name="text_on_accent">#022C22</color>
+    <color name="badge_fallback_yellow">#FACC15</color>
+    <color name="danger_rose">#FB7185</color>
+    <color name="overlay_box_bg">#D9000000</color>
+    <color name="overlay_box_stroke">#6694A3B8</color>
+</resources>
